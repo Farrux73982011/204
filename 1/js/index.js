@@ -29,7 +29,8 @@ colorBtns1.forEach((btn) => {
         img.src = pictures1[key]
         
     }
-    btn.onmousecenter = () => {
+    btn.onmouseenter = () => {
+        let key = btn.getAttribute('data-color')
         span_color.innerHTML = texts[key]
     }
 })
@@ -43,12 +44,5 @@ iph_js2.forEach((btn) => {
     btn.onclick = () => {
         iph_js2.forEach(el => el.classList.remove('active3'))
         btn.classList.add('active3')
-
-    }
-})
-
-iph_js2.forEach((btn) => {
-    btn.onclick = () => {
-        img.src = './img/iphons.png'
     }
 })
