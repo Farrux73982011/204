@@ -215,6 +215,7 @@ header {
     height: 60px;
     border-radius: 100px;
     padding: none;
+    /* border:  none; */
     /* border: 1px solid white; */
 }
 .gold{
@@ -225,6 +226,7 @@ header {
     width: 60px;
     height: 60px;
     border-radius: 100px;
+    /* border:  none; */
     /* border: 1px solid white; */
 } 
 .silver{
@@ -235,6 +237,7 @@ header {
     width: 60px;
     height: 60px;
     border-radius: 100px;
+    /* border:  none; */
     /* border: 1px solid white; */
 } 
 .black{
@@ -245,6 +248,7 @@ header {
     width: 60px;
     height: 60px;
     border-radius: 100px;
+    /* border:  none; */
     /* border: 1px solid white; */
 }
 .op {
@@ -319,4 +323,207 @@ header {
 }
 .buttons{
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container_mac{
+    width: 100%;
+    height: 100%;
+}
+.pros{
+    width: 540px;
+    height: 59px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin: 70px 0 0 609px;
+}
+.mac_p_1{
+    width: 1008px;
+    height: 88px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 24px 0 0 360px;
+}
+.spase{
+    width: 312px;
+    height: 290px;  
+    margin: 63px 0 0 524px;
+}
+.mac_vse{
+    display: flex;
+}
+.mc{
+    width: 320px;
+    height: 59px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin: 110px 0 0 76px;
+}
+.color_mac{
+    width: 66px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0071E3;
+    margin: 0 0 0 76px;
+}
+.dengi , .dengi_div{
+    width: 135px;
+    height: 59px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+
+}
+.dengi_div{
+    margin: 48px 0 0 76px;
+}
+.white{
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    margin: 59;
+    border: none;
+    font-size: 10px;
+    background: #CFE7FF;
+    color: #797979;
+    font-weight: 500;
+}
+
+.gray{
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 11px;
+    font-size: 10px;
+    background: #CFE7FF;
+    color: #797979;
+    font-weight: 500;
+}
+
+.buttonss{
+    font-size: 10px;
+    color: gray;
+    margin: 59px 0 0 703px;
+}
+.gb512{
+    box-sizing: border-box;
+    position: absolute;
+    width: 321px;
+    height: 57px;
+    border-radius: 10px;
+    border: 2px solid #CFE7FF;
+    margin: 39px 0 0 703px;
+}
+.gb512_h1{
+    width: 125px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 20px;
+}
+.tb1{
+    width: 321px;
+    height: 57px;
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    margin: 103px 0 0 703px;
+    display: flex;
+}
+.tr1_h1{
+    width: 100px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 18px 0 0 20px;
+}
+.tr1_h1_2 {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 20px 0 0 150px;
+}
+.tb2{
+    width: 321px;
+    height: 57px;
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    margin: 7px 0 0 703px;
+    display: flex;
+}
+.tr2_h1{
+    width: 100px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 18px 0 0 20px;
+}
+.tr2_h1_2 {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 20px 0 0 150px;
+}
+.tb4{
+    width: 321px;
+    height: 57px;
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    margin: 7px 0 0 703px;
+    display: flex;
+}
+.tr4_h1{
+    width: 100px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 18px 0 0 20px;
+}
+.tr4_h1_2 {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 20px 0 0 150px;
+}
+.for_stckiy{
+    width: 100%;
+    height: 300vh;
+}
+.active{
+    border: 3px solid #0071E3;
+}
+.active4{
+    background-color: #0071E3;
+    color: white;
+    font-size: 10px;
 }
