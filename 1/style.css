@@ -412,6 +412,7 @@ header {
     background: #CFE7FF;
     color: #797979;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .gray{
@@ -424,12 +425,14 @@ header {
     background: #CFE7FF;
     color: #797979;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .buttonss{
     font-size: 10px;
     color: gray;
     margin: 59px 0 0 703px;
+    cursor: pointer;
 }
 .gb512{
     box-sizing: border-box;
@@ -439,6 +442,7 @@ header {
     border-radius: 10px;
     border: 2px solid #CFE7FF;
     margin: 39px 0 0 703px;
+    cursor: pointer;
 }
 .gb512_h1{
     width: 125px;
@@ -456,6 +460,7 @@ header {
     border-radius: 10px;
     margin: 103px 0 0 703px;
     display: flex;
+    cursor: pointer;
 }
 .tr1_h1{
     width: 100px;
@@ -478,6 +483,7 @@ header {
     border-radius: 10px;
     margin: 7px 0 0 703px;
     display: flex;
+    cursor: pointer;
 }
 .tr2_h1{
     width: 100px;
@@ -500,6 +506,7 @@ header {
     border-radius: 10px;
     margin: 7px 0 0 703px;
     display: flex;
+    cursor: pointer;
 }
 .tr4_h1{
     width: 100px;
@@ -521,9 +528,11 @@ header {
 }
 .active{
     border: 3px solid #0071E3;
+    cursor: pointer;
 }
 .active4{
     background-color: #0071E3;
     color: white;
     font-size: 10px;
+    cursor: pointer;
 }
