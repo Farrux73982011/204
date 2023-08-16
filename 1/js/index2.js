@@ -2,7 +2,7 @@ let img2 = document.querySelector('.spase')
 let dengi = document.querySelector('.dengi')
 let b1 = document.querySelectorAll('[data-opi]')
 let colorBtns2 = document.querySelectorAll('.buttonsss')
-let color_mac = document.querySelector('color_mac')
+let color_mac = document.querySelector('.color_mac')
 
 let pictures2 = {
     white: './img/mbp14-silver-select-202110 1.png',
